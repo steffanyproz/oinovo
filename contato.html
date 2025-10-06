@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamour Make - Contato</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <div class="logo" aria-label="Logo Glamour Make">Glamour Make</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contato">
+      <h1>Fale Conosco</h1>
+
+      <div class="contato-info">
+        <p><strong> WhatsApp:</strong> <a href="https://wa.me/5538991192941" target="_blank">(38) 99119-2941</a></p>
+        <p><strong> E-mail:</strong> <a href="mailto:glamourmake@gmail.com">glamourmake@gmail.com</a></p>
+        <p><strong> Endereço:</strong> Rua Mendonça, 123, Montes Claros - MG</p>
+      </div>
+
+      <form class="form-contato" aria-label="Formulário de contato">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="Digite seu e-mail" required>
+
+        <label for="telefone">Telefone</label>
+        <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- VLibras - Tradutor automático para Libras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-button"></div>
+  </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+
+</body>
+</html>
