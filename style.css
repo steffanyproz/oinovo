@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ header {
   font-weight: bold;
 }
 
-/* Banner */
+
 .banner {
   display: flex;
   flex-wrap: wrap;
@@ -57,12 +57,12 @@ header {
 }
 
 .banner-img img {
-  width: 100%;         /* ou outro valor como 80% */
-  max-height: 400px;   /* limita a altura máxima */
-  object-fit: cover;   /* mantém a proporção e corta o excesso */
+  width: 100%;         
+  max-height: 400px;   
+  object-fit: cover;   
   display: block;
-  margin: 0 auto;      /* centraliza a imagem se necessário */
-  border-radius: 8px;  /* opcional: bordas arredondadas */
+  margin: 0 auto;     
+  border-radius: 8px; 
 }
 
 
@@ -90,9 +90,7 @@ header {
 .btn-banner:focus {
   background-color: #800040;
   outline: none;
-}
 
-/* Benefícios */
 .beneficios {
   display: flex;
   flex-wrap: wrap;
@@ -111,10 +109,7 @@ header {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 0.5rem;
-}
-
-/* Sobre */
+  margin-bottom: 0.5rem 
 .sobre {
   padding: 2rem;
   max-width: 800px;
@@ -131,7 +126,7 @@ header {
   color: #555;
 }
 
-/* Rodapé */
+/
 footer {
   text-align: center;
   padding: 1rem;
@@ -140,15 +135,15 @@ footer {
   margin-top: 2rem;
 }
 
-/* Acessibilidade extra */
+
 a:focus,
 button:focus {
   outline: 2px solid #000;
   outline-offset: 4px;
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
+
+@media (max-width:768px) {
   .banner {
     flex-direction: column;
   }
@@ -163,8 +158,7 @@ button:focus {
     align-items: center;
   }
 }
-/*CSS DO PRODUTOOOOOOOOO*/
-/* ====== RESET BÁSICO ====== */
+
 * {
   margin: 0;
   padding: 0;
@@ -179,7 +173,7 @@ body {
   padding: 0;
 }
 
-/* ====== CABEÇALHO ====== */
+
 header {
   background-color: #b30059;
   color: #fff;
@@ -216,12 +210,12 @@ header {
   font-weight: bold;
 }
 
-/* ====== CONTEÚDO PRINCIPAL ====== */
+
 main {
   padding: 2rem;
 }
 
-/* Título da seção */
+
 .produtos h1 {
   text-align: center;
   font-size: 2rem;
@@ -229,14 +223,12 @@ main {
   color: #b30059;
 }
 
-/* ====== GRID DE PRODUTOS ====== */
+
 .grid-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
-}
+  ga
 
-/* ====== CARD DE PRODUTO ====== */
 .card {
   background-color: #fff;
   border: 2px solid transparent; /* Borda invisível inicialmente */
@@ -250,10 +242,10 @@ main {
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-color: #b30059; /* Borda rosa escura no hover */
+  border-color: #b30059; 
 }
 
-/* Imagem do produto */
+
 .card img {
   max-width: 100%;
   height: auto;
@@ -261,21 +253,21 @@ main {
   margin-bottom: 1rem;
 }
 
-/* Nome do produto */
+
 .card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.3rem;
   color: #800040;
 }
 
-/* Descrição */
+
 .card .descricao {
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 0.5rem;
 }
 
-/* Preço */
+
 .card .preco {
   font-size: 1.1rem;
   font-weight: bold;
@@ -283,7 +275,7 @@ main {
   margin-bottom: 1rem;
 }
 
-/* ====== BOTÃO COMPRAR ====== */
+
 .btn-comprar {
   background-color: #b30059;
   color: #fff;
@@ -302,7 +294,7 @@ main {
   outline: none;
 }
 
-/* ====== RODAPÉ ====== */
+
 footer {
   background-color: #b30059;
   color: #fff;
@@ -310,7 +302,7 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-/* Cursor de mãozinha para links e botões */
+
 a, button, .btn-comprar {
   cursor: pointer;
 }
@@ -436,3 +428,4 @@ footer {
   color: #666;
   font-size: 0.9rem;
 }
+
