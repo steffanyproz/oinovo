@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -92,7 +92,7 @@ header {
   outline: none;
 }
 
-/* Benefícios */
+
 .beneficios {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +114,6 @@ header {
   margin-bottom: 0.5rem;
 }
 
-/* Sobre */
 .sobre {
   padding: 2rem;
   max-width: 800px;
@@ -131,7 +130,7 @@ header {
   color: #555;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -140,14 +139,14 @@ footer {
   margin-top: 2rem;
 }
 
-/* Acessibilidade extra */
+
 a:focus,
 button:focus {
   outline: 2px solid #000;
   outline-offset: 4px;
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
   .banner {
     flex-direction: column;
@@ -162,9 +161,8 @@ button:focus {
     flex-direction: column;
     align-items: center;
   }
-}
-/*CSS DO PRODUTOOOOOOOOO*/
-/* ====== RESET BÁSICO ====== */
+} 
+
 * {
   margin: 0;
   padding: 0;
@@ -179,7 +177,7 @@ body {
   padding: 0;
 }
 
-/* ====== CABEÇALHO ====== */
+
 header {
   background-color: #b30059;
   color: #fff;
@@ -216,7 +214,7 @@ header {
   font-weight: bold;
 }
 
-/* ====== CONTEÚDO PRINCIPAL ====== */
+
 main {
   padding: 2rem;
 }
@@ -227,16 +225,15 @@ main {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #b30059;
-}
+} 
 
-/* ====== GRID DE PRODUTOS ====== */
 .grid-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
 }
 
-/* ====== CARD DE PRODUTO ====== */
+
 .card {
   background-color: #fff;
   border: 2px solid transparent; /* Borda invisível inicialmente */
@@ -253,7 +250,7 @@ main {
   border-color: #b30059; /* Borda rosa escura no hover */
 }
 
-/* Imagem do produto */
+
 .card img {
   max-width: 100%;
   height: auto;
@@ -261,21 +258,21 @@ main {
   margin-bottom: 1rem;
 }
 
-/* Nome do produto */
+
 .card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.3rem;
   color: #800040;
 }
 
-/* Descrição */
+
 .card .descricao {
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 0.5rem;
 }
 
-/* Preço */
+
 .card .preco {
   font-size: 1.1rem;
   font-weight: bold;
@@ -283,7 +280,7 @@ main {
   margin-bottom: 1rem;
 }
 
-/* ====== BOTÃO COMPRAR ====== */
+
 .btn-comprar {
   background-color: #b30059;
   color: #fff;
@@ -302,7 +299,7 @@ main {
   outline: none;
 }
 
-/* ====== RODAPÉ ====== */
+
 footer {
   background-color: #b30059;
   color: #fff;
@@ -310,7 +307,7 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-/* Cursor de mãozinha para links e botões */
+
 a, button, .btn-comprar {
   cursor: pointer;
 }
@@ -437,5 +434,6 @@ footer {
   font-size: 0.9rem;
 }
  
+
 
 
